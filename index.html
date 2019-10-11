@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>document</title>
+</head>
+<body>
+    <div class="calculator">
+        <form name="form">
+            <input class="textview" name="textview">
+        </form>
+        <table class="buttons">
+            <tr>
+                   
+                <td><button>.</button></td>
+                <td><button>/</button></td>
+                <td><button>*</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>0</button></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="clean()"></td>
+                <td><input type="button" value="del" onclick="back()"></td>
+                <td><input type="button" value="=" onclick="equal()"></td>                  
+            </tr>
+        </table>
+    </div>     
+    <script src="js/index.js"></script>
+    </body>
+</html>
